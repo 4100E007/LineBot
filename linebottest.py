@@ -10,7 +10,7 @@ import sqlite3
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('eZpniJjGcXT6WDMx/0CiQ9tajebXtXJeIsnyZEdsRmLiUIAM8bZuWx/3oAB1XX6n+7mBd5u3dY+hgtBlEScFSHEQcTpLrw4Ezs/c7lolqlh72m/BgyJJ1eZBreIACQiYJUap9Rh/m+YCz9oylgA5twdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('https://linebot-ehdb.onrender.com/callback')
+handler = WebhookHandler('e8816defd46e09a3071015d1cde0b028')
 
 # SQLite 數據庫文件路徑
 DB_FILE_PATH = 'invoice_data.db'
